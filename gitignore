@@ -1,0 +1,12 @@
+[200~# Ignore node_modules folder (dependencies installed by npm)
+node_modules/
+
+# Ignore environment variable file with sensitive data
+.env
+
+# Ignore Hardhat artifacts and cache
+artifacts/
+cache/
+
+# Ignore package-lock.json (optional, depends on preference)
+package-lock.json
